@@ -1,0 +1,84 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Você deve criar uma conta no ShareLatex. Depois,  %%
+%% vá nas opções no canto esquerdo superior da tela  %%
+%% e clique em "Copiar Projeto". Dê um novo nome pa- %%
+%% ra o projeto.                                     %%
+%%                                                   %%
+%%                                                   %%
+%% Grande parte do trabalho foi adaptado do template %%
+%% da UECE elaborado por:                            %%
+%% Thiago Nascimento  (UECE)                         %%
+%% Project available on:                             %%
+%% https://github.com/thiagodnf/uecetex2             %%
+%% e da UFC  					     %%	
+%% Project available on:		             %%
+%% http://pt.sharelatex.com/project/57740f53c4b5936215e82746 %%
+%%                                                   %%
+%% As últimas atualizações estão descritas no inicio %%
+%% do arquivo "README.md".                           %%
+%%                                                   %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%                                                   %%
+%% This work may be distributed and/or modified under%%
+%% theconditions of the LaTeX Project Public License,%%
+%% either version 1.3 of this license or (at your    %%
+%% option) any                                       %%
+%% later version. The latest version of this license %%
+%% is in http://www.latex-project.org/lppl.txt and   %%
+%% version 1.3 or later is part of all distributions %%
+%% of LaTeX version 2005/12/01 or later.             %%
+%% Further information about abnTeX2                 %%
+%% are available on http://abntex2.googlecode.com/   %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+% Importações de pacotes
+\usepackage[utf8]{inputenc}                         % Acentuação direta
+\usepackage[T1]{fontenc}                            % Codificação da fonte em 8 bits
+\usepackage{graphicx}                               % Inserir figuras
+\usepackage{amsfonts, amssymb, amsmath}             % Fonte e símbolos matemáticos
+\usepackage{booktabs}                               % Comandos para tabelas
+\usepackage{verbatim}                               % Texto é interpretado como escrito no documento
+\usepackage{multirow, array}                        % Múltiplas linhas e colunas em tabelas
+\usepackage{indentfirst}                            % Endenta o primeiro parágrafo de cada seção.
+\usepackage{listings}                               % Utilizar codigo fonte no documento
+\usepackage{xcolor}
+\usepackage{microtype}                              % Para melhorias de justificação?
+\usepackage[portuguese,ruled,lined]{algorithm2e}    % Escrever algoritmos
+\usepackage{algorithmic}                            % Criar Algoritmos  
+%\usepackage{float}                                 % Utilizado para criação de floats
+\usepackage{amsgen}
+\usepackage{lipsum}                                 % Usar a simulação de texto Lorem Ipsum
+%\usepackage{titlesec}                              % Permite alterar os títulos do documento
+\usepackage{tocloft}                                % Permite alterar a formatação do Sumário
+\usepackage{etoolbox}                               % Usado para alterar a fonte da Section no Sumário
+\usepackage[nogroupskip,nonumberlist]{glossaries}   % Permite fazer o glossario
+
+\usepackage[font=singlespacing,format=plain,justification=justified,skip=0pt,singlelinecheck = false]{caption}            % Altera o comportamento da tag caption
+
+\usepackage[alf, abnt-emphasize=bf, recuo=0cm, abnt-etal-cite=2, abnt-etal-list=0, abnt-etal-text=it]{abntex2cite}  % Citações padrão ABNT
+%\usepackage[bottom]{footmisc}                      % Mantém as notas de rodapé sempre na mesma posição
+%\usepackage{times}                                 % Usa a fonte Times
+\usepackage{mathptmx}                               % Usa a fonte Times New Roman										
+%\usepackage{lmodern}                               % Usa a fonte Latin Modern
+%\usepackage{subfig}                                % Posicionamento de figuras
+%\usepackage{scalefnt}                              % Permite redimensionar tamanho da fonte
+%\usepackage{color, colortbl}                       % Comandos de cores
+%\usepackage{lscape}                                % Permite páginas em modo "paisagem"
+%\usepackage{ae, aecompl}                           % Fontes de alta qualidade
+%\usepackage{picinpar}                              % Dispor imagens em parágrafos
+%\usepackage{latexsym}                              % Símbolos matemáticos
+%\usepackage{upgreek}                               % Fonte letras gregas
+\usepackage{appendix}                               % Gerar o apendice no final do documento
+\usepackage{paracol}                                % Criar paragrafos sem identacao
+\usepackage{lib/chtex}		                        % Biblioteca com as normas da Christus para trabalhos academicos
+\usepackage{pdfpages}                               % Incluir pdf no documento
+\usepackage{amsmath}                                % Usar equacoes matematicas
+
+% Organiza e gera a lista de abreviaturas, simbolos e glossario
+\makeglossaries
+
+% Gera o Indice do documento
+\makeindex
+
+\setlength{\mathindent}{0pt} %Complementa o alinhamento de equações para totalmente a esquerda.
