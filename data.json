@@ -21,7 +21,7 @@
           "SHA256": "cebcfef4d1325934162939c1005b86aaae0e4fee3d70e63e0a466489272ef755",
           "MD5": "26b3c5cb135e9e2a6f8429df76f86a18",
           "Priority": "Critical",
-          "PriorityWeight": 2,
+          "PriorityWeight": 3,
           "ReadmeUrl": "",
           "HasReadme": false,
           "Date": {
