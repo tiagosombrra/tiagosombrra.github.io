@@ -22,7 +22,7 @@
           "SHA1": "f68f966f621dc5a4a5dc839a589402568ffa13e5",
           "SHA256": "9dfc912857f211c84cfd60193aad21d0ae9a968937b80f8dd5f02780e1a4b569",
           "MD5": "03efb40ac28f5b2ac2520d8b392c201a",
-          "Priority": "Recommended",
+          "Priority": "Critical",
           "PriorityWeight": 2,
           "ReadmeUrl": "",
           "HasReadme": false,
